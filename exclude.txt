@@ -39,6 +39,7 @@ wp-content/cache/supercache/*
 #   and completely useless in the context of local WordPress development, others
 #   (such as some of the WP Engine managed plugins) might be useful in rare
 #   circumstances to have as a reference for debugging purposes.
+.
 .smushit-status
 .gitattributes
 .wpe-devkit/
