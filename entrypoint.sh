@@ -18,6 +18,7 @@ fi
 
 echo "Deploying ${GITHUB_REF} to ${WPE_ENV_NAME} ..." 
 echo "GITHUB_ACTION = ${GITHUB_ACTION}"
+echo "GITHUB_JOB = ${GITHUB_JOB}"
 
 # Deploy Vars
 WPE_SSH_HOST="$WPE_ENV_NAME.ssh.wpengine.net"
