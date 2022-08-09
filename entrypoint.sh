@@ -86,6 +86,11 @@ if [ "${INPUT_CACHE_CLEAR^^}" == "TRUE" ]; then
   else echo "CACHE_CLEAR must be TRUE or FALSE only... Cache not cleared..."  && exit 1;
 fi
 
+# TEMP
+echo "--------------- TEMP DEBUG START ---------------"
+ls -lsa
+echo "--------------- TEMP DEBUG END ---------------"
+
 # Deploy via SSH
 # setup master ssh connection 
 ssh -nNf -v -i "${WPE_SSHG_KEY_PRIVATE_PATH}" -o StrictHostKeyChecking=no -o ControlMaster=yes -o ControlPath="$SSH_PATH/ctl/%C" "$WPE_FULL_HOST"
