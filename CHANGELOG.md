@@ -1,5 +1,11 @@
 # @wpengine/github-action-wpe-site-deploy
 
+## 3.2.0
+
+### Minor Changes
+
+- 24c8aaf: Add CDN cache clearing ability to the CACHE_CLEAR flag.
+
 ## 3.1.1
 
 ### Patch Changes
